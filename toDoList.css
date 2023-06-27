@@ -1,0 +1,131 @@
+.div-header {
+  margin: 20px; 
+  padding: 20px; 
+  background-color: rgb(161, 201, 178); 
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center; 
+  border-radius: 10px;
+}
+
+.div-body {
+  margin: 0px; 
+  padding: 0px; 
+  background-color: white; 
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  border-radius: 10px;
+}
+
+.div-form {
+  margin: 20px; 
+  padding: 20px; 
+  background-color: rgb(230, 230, 230); 
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  border-radius: 10px;
+}
+
+.div-item {
+  margin: 20px; 
+  padding: 20px; 
+  background-color: rgb(159, 209, 202); 
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  border-radius: 10px;
+  animation-name: hide;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+.div-button {
+  margin: 4px;
+  padding: 4px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: -12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  float: right;
+}
+
+.button-blue {
+  background-color: #008CBA;
+}
+
+.button-blue:hover {
+  background-color: #40add1;
+}
+
+.button-green {
+  background-color: #49b163;
+  float: none;
+  margin: 10px;
+}
+
+.button-green:hover {
+  background-color: #71b889;
+}
+
+.button-gray {
+  background-color: #7b7878;
+  float: none;
+  margin: 10px;
+}
+
+textarea {
+  border-radius: 8px;
+  border: solid 2px rgb(230, 230, 230);
+  transition-duration: 1s;
+  width: 100%;
+  resize: none;
+}
+
+textarea:hover {
+  border: solid 2px rgb(94, 186, 242);
+  transition-duration: 1s;
+}
+
+textarea:focus {
+  border: solid 2px rgb(94, 186, 242);
+  transition-duration: 1s;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+    margin: 20px; 
+    padding: 20px;
+    height: 100%;
+    line-height: 100%;
+  }
+  75% {
+    opacity: 0;
+    margin: 20px; 
+    padding: 20px;
+    height: 100%;
+    line-height: 100%;
+  }
+  100% {
+    opacity: 0;
+    margin: 0px; 
+    padding: 0px;
+    height: 0%;
+    line-height: 0%;
+  }
+}
