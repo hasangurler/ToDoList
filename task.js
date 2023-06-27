@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     add.disabled = true;
     add.className = "button button-gray";
 
-    // Update and save the task array.
+    // Update and save the tasks.
     tasks[taskCount] = task;
     saveTasks();
 
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.innerHTML = task;
 
     const divButton = document.createElement('div');
-    divButton.className = "div-button";
+    divButton.className = "div-button div-center";
 
     const button = document.createElement('button');
     button.className = "button button-blue";
