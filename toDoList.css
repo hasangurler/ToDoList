@@ -106,6 +106,12 @@ textarea:focus {
   align-items: center;
 }
 
+.div-right {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
 @keyframes hide {
   0% {
     opacity: 1;

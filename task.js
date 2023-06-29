@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     div.innerHTML = task;
 
     const divButton = document.createElement('div');
-    divButton.className = "div-button div-center";
+    divButton.className = "div-button div-right";
 
     const button = document.createElement('button');
     button.className = "button button-blue";
